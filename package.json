@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["CSSGRID", "CSS"],
+  "keywords": [
+    "CSSGRID",
+    "CSS"
+  ],
   "author": "Diego Montes",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "eslint": "^5.11.1",
-    "gulp": "^4.0.0"
+    "gulp": "^3.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.8"
   }
 }

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+html {
+  height: 100%; }
+  html body {
+    margin: 10px;
+    font-family: 'Titillium', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style-type: none; }
+  ul li {
+    display: inline; }
+
+body {
+  background-color: #c7c7c7;
+  display: grid;
+  grid-template-rows: repeat(3) auto; }
+
+header {
+  display: grid;
+  grid-template-rows: fit-content(250px) auto;
+  background-color: black; }
+
+header > img {
+  justify-self: center; }
+
+header nav {
+  display: grid;
+  padding: 0 50px;
+  grid-template-columns: 100px 300px auto;
+  color: white;
+  align-items: center;
+  margin-top: 10px;
+  border-top: 1px solid gray; }
+
+header nav ul {
+  justify-self: end; }
+
+header nav ul li a {
+  color: white; }
+
+header nav img {
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%; }
+
+section {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  padding: 0 20px; }
+
+section article {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-items: center;
+  align-items: center; }
+
+section img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%; }
+
+footer {
+  background-color: silver; }
