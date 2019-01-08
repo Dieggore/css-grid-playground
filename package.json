@@ -18,5 +18,8 @@
     "gulp": "^3.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "feather-icons": "^4.10.0"
   }
 }
