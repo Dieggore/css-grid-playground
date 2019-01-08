@@ -13,9 +13,10 @@ npm i
 To start the app run:
 --
 ```
-gulp browser-sync
+gulp
 ```
 Want to learn more about CSS GRID?
 --
 [Check this link](https://learncssgrid.com/)
+
 
